@@ -1,0 +1,800 @@
+@keyframes ad {
+    from {
+        width: 0px;
+    }
+    to {
+        width: 1230px;
+    }
+}
+
+@keyframes heading {
+    0% {
+        color: brown;
+        text-shadow: 10px 10px 7px lightcyan;
+    }
+    20% {
+        color: blueviolet;
+        text-shadow: 10px 10px 7px palevioletred;
+    }
+    40% {
+        color: navy;
+        text-shadow: 10px 10px 7px black;
+    }
+    60% {
+        color: white;
+        text-shadow: 10px 10px 5px black;
+    }
+    80% {
+        color: black;
+        text-shadow: 10px 10px 7px red;
+    }
+    100% {
+        color: navy;
+        text-shadow: 10px 10px 7px blueviolet;
+    }
+}
+
+@keyframes bgcolor {
+    0% {
+        background-color: navy;
+    }
+    20% {
+        background-color: plum;
+    }
+    40% {
+        background-color: black;
+    }
+    60% {
+        background-color: red;
+    }
+    80% {
+        background-color: purple;
+    }
+    100% {
+        background-color: brown;
+    }
+}
+
+@keyframes slide-down {
+    0% {
+        height: 50px;
+    }
+    100% {
+        height: 300px;
+    }
+}
+
+.body1 {
+    width: 100%;
+    height: auto;
+    border: 10px solid black;
+    overflow: scroll;
+    margin-top: -10px;
+}
+
+#scroll_menu_bar {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    z-index: 10;
+    display: none;
+    opacity: 0.8;
+    padding-left: -10px;
+}
+
+.navigation {
+    background-color: black;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.navigation ul {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    list-style-type: none;
+    font-family: arial;
+    text-align: center;
+}
+
+.navigation ul li:hover {
+    background-color: gold;
+    border-radius: 3px;
+    color: black;
+}
+
+.navigation ul li a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.navigation ul li {
+    width: 170px;
+    height: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+.navigation ul li:visited {
+    background-color: gold;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+}
+
+.navigation ul :hover ul li {
+    background-color: black;
+}
+
+.navigation ul :hover ul li a {
+    color: white;
+}
+
+.navigation ul li:hover .drop_down {
+    display: block;
+}
+
+.logo {
+    background-color: navy;
+    border: 1px solid red;
+    height: 130px;
+}
+
+.imgg {
+    width: 150px;
+    border-radius: 1000px;
+    height: 120px;
+    background-image: url(img/indiaover.jpg);
+    background-size: 100% 100%;
+    border-radius: 50px 0px 50px 0px;
+    overflow: hidden;
+    box-shadow: 10px 5px 15px black, -10px -0px 15px black;
+    margin-top: 3px;
+}
+
+.heading {
+    height: 120px;
+    width: 850px;
+    background-color: gold;
+    position: relative;
+    left: 170px;
+    bottom: 150px;
+    font-size: 82px;
+    padding: 10px;
+    margin: 0px 0px 0px 13px;
+    animation-name: heading;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+}
+
+.founder {
+    float: right;
+    border: 5px solid white;
+    height: 150px;
+    width: 170px;
+    position: relative;
+    bottom: 300px;
+}
+
+.marquee {
+    background-color: navy;
+    font-size: 24px;
+    color: gold;
+    height: 40px;
+    width: 1066px;
+    border: 1px solid orange;
+}
+
+.name {
+    height: 40px;
+    color: gold;
+    background-color: navy;
+    width: 170px;
+    position: relative;
+    left: 1070px;
+    bottom: 40px;
+}
+
+.mar {
+    color: blue;
+    font-weight: 100px;
+    font-size: 25px;
+}
+
+.menu {
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    height: 20px;
+    width: 100%;
+    position: relative;
+    top: 20px;
+    padding-left: 20px;
+    padding-top: 2px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.drop {
+    width: 100%;
+    height: auto;
+    background-color: green;
+    opacity: 0.8;
+    transition: 2s;
+    box-sizing: border-box;
+    display: none;
+}
+
+.minidrop {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    opacity: 0.5;
+    transition: 2s;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: Green;
+    height: 45px;
+    width: 680px;
+}
+
+.nav ul {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    list-style-type: none;
+    font-family: arial;
+    text-align: center;
+}
+
+.nav ul li:hover {
+    background-color: brown;
+    border-radius: 3px;
+}
+
+.nav ul li {
+    width: 170px;
+    height: 45px;
+    text-align: center;
+}
+
+.nav ul li:visited {
+    background-color: purple;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.drop_down {
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+}
+
+.nav ul li:hover .drop_down {
+    display: block;
+}
+
+.drop_down ul {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    top: 20px;
+}
+
+.drop_down ul li {
+    padding: 5px;
+    margin: 0px;
+    width: 160px;
+    background-color: green;
+}
+
+#sub a {
+    text-decoration: none;
+    color: white;
+    float: right;
+    width: 25%;
+    height: 50px;
+    padding: 15px 0px 0px 0px;
+    background-color: red;
+    transition-property: width;
+    box-sizing: border-box;
+    transition-duration: 2s;
+    border-style: outset;
+    font-size: 24px;
+    position: relative;
+    bottom: 50px;
+}
+
+#sub a:hover {
+    width: 44.5%;
+}
+
+.ad {
+    background-color: navy;
+    font-family: arial;
+    font-size: 40px;
+    color: red;
+    height: 60px;
+    font-weight: 600px;
+    color: white;
+    width: 1230px;
+    animation-name: ad;
+    animation-duration: 5s;
+    animation-iteration-count: auto;
+    box-shadow: 10px 10px 20px black, -10px -10px 20px black;
+    margin-bottom: 50px;
+}
+
+.flex-parent {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    height: 130px;
+    background-color: navy;
+    margin-top: 2px;
+}
+
+.imgg {
+    width: 150px;
+    border-radius: 1000px;
+    height: 120px;
+    background-image: url(image/indiaover.jpg);
+    border-radius: 50px 0px 50px 0px;
+    overflow: hidden;
+    box-shadow: 10px 5px 15px black, -10px -0px 15px black;
+    margin-top: 3px;
+}
+
+.headingg {
+    border: 1px solid black;
+    width: 900px;
+}
+
+.headingg {
+    font-size: 90px;
+    text-align: center;
+    animation-name: heading;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    background-color: gold;
+    font-weight: 800px;
+    padding: 15px;
+}
+
+.founderr {
+    border: 1px solid black;
+    width: 150px;
+}
+
+.flex-parent2 {
+    margin-top: 1px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    border: 3px solid black;
+    background-color: navy;
+    margin-bottom: 40px;
+}
+
+.marqueee {
+    width: 90%;
+    color: gold;
+    font-size: 28px;
+    padding: 5px;
+}
+
+.namee {
+    border: 1px solid black;
+    width: 12%;
+    color: gold;
+}
+
+
+/* /* #title_heading {
+    color: red;
+    font-size: 3.5rem;
+    width: 70%;
+    height: auto;
+    font-weight: bold;
+    margin-left: -750px;
+    animation-name: heading;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    background-color: gold;
+    box-sizing: border-box;
+    padding-left: 100px;
+} */
+
+#social_media {
+    height: auto;
+    width: 5%;
+    color: white;
+    font-size: 3rem;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+#menu {
+    width: 50px;
+}
+
+.fa-facebook,
+.fa-instagram-square,
+.fa-twitter-square,
+.fa-youtube {
+    font-size: 45px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#social {
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    display: none;
+    box-sizing: border-box;
+    animation-name: slide-down;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.slider {
+    background-color: black;
+    color: white;
+    transition: 0.1s;
+    z-index: 2;
+    height: 320px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+#mar {
+    background-color: green;
+    color: white;
+    font-size: 36px;
+    height: 50px;
+}
+
+.diwali3 {
+    background-color: black;
+    width: 600px;
+    height: 450px;
+    border: 3px solid gold;
+    color: white;
+    border-radius: 30px;
+}
+
+.diwali3:hover {
+    box-shadow: 10px 10px 20px purple, -10px -10px 20px purple;
+}
+
+.table {
+    padding: 10px;
+}
+
+.footer {
+    background-color: black;
+    color: gold;
+    height: 40px;
+    padding: 20px;
+}
+
+@media (max-width: 468px) {
+    @keyframes ad {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 100%;
+        }
+    }
+    #scroll_menu_bar {
+        height: 5px;
+    }
+    .navigation ul li a {
+        text-decoration: none;
+        font-size: 8px;
+        color: white;
+    }
+    .navigation ul li {
+        margin-right: 0ps;
+    }
+    #scroll_menu_bar #sub {
+        display: none;
+    }
+    .body1 {
+        width: 100%;
+        height: auto;
+        border-style: outset;
+        background-color: white;
+        border: 3px black;
+    }
+    .imgg {
+        width: 15%;
+        height: 70px;
+        border-radius: 15px 0px 15px 0px;
+    }
+    .imgg img {
+        width: 15%;
+        height: 70px;
+    }
+    .flex-parent {
+        height: 70px;
+        width: 100%;
+    }
+    .marqueee {
+        border: 0px solid black;
+    }
+    .headingg {
+        width: 70%;
+        font-size: 30px;
+        padding-top: 5px;
+        box-sizing: border-box;
+    }
+    .founderr {
+        height: 70px;
+        width: 15%;
+    }
+    .founderr img {
+        width: 100%;
+        height: 70px;
+    }
+    .marqueee {
+        font-size: 13px;
+        height: 50px;
+        font-weight: bold;
+    }
+    .flex-parent2 {
+        height: 20px;
+        position: relative;
+        bottom: 25px;
+    }
+    .marqueee {
+        height: 20px;
+        width: 80%;
+    }
+    .namee {
+        width: 18%;
+        font-size: 6px;
+    }
+    #social_media {
+        display: none;
+    }
+    .menu {
+        position: relative;
+        top: 40px;
+    }
+    .drop {
+        opacity: 0.8;
+        transition: 2s;
+        box-sizing: border-box;
+        margin-top: -65px;
+        margin-bottom: 20px;
+    }
+    .ad {
+        font-size: 15px;
+        color: white;
+        height: 25px;
+        font-weight: bold;
+        width: 100%;
+        animation-name: ad;
+        animation-duration: 5s;
+        animation-iteration-count: auto;
+        margin-bottom: 35px;
+        box-sizing: border-box;
+        padding-top: 5px;
+    }
+    .nav {
+        display: none;
+    }
+    #sub a {
+        width: 35%;
+        height: 20px;
+        font-size: 8px;
+        box-sizing: border-box;
+        padding: 3px 0px 0px 0px;
+        margin: 0;
+        text-align: none;
+        top: -48px;
+    }
+    #sub a {
+        padding: 0px;
+    }
+    .menu {
+        display: block;
+    }
+    #mar {
+        font-size: 12px;
+        height: 20px;
+        width: 100%;
+        font-weight: bold;
+        padding: 3px;
+        box-sizing: border-box;
+        margin-top: -10px;
+    }
+    .table {
+        width: 100%;
+        height: auto;
+    }
+    .diwali3 {
+        width: 190px;
+        height: 100px;
+        border-radius: 10px;
+    }
+    .diwali3 iframe {
+        width: 190px;
+        height: 100px;
+        border-radius: 10px;
+    }
+    .footer {
+        font-size: 9px;
+    }
+}
+
+@media (min-width: 470px) and (max-width: 980px) {
+    @keyframes ad {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 100%;
+        }
+    }
+    .body1 {
+        width: 100%;
+        height: auto;
+        border-style: outset;
+        background-color: white;
+        border: 3px black;
+    }
+    #scroll_menu_bar {
+        height: 5px;
+    }
+    .navigation ul li a {
+        text-decoration: none;
+        font-size: 8px;
+        color: white;
+    }
+    .navigation ul li {
+        margin-right: 0ps;
+    }
+    #scroll_menu_bar #sub {
+        display: none;
+    }
+    .imgg {
+        width: 15%;
+        height: 70px;
+        border-radius: 15px 0px 15px 0px;
+    }
+    .imgg img {
+        width: 15%;
+        height: 70px;
+    }
+    .flex-parent {
+        height: 70px;
+        width: 100%;
+    }
+    .marqueee {
+        border: 0px solid black;
+    }
+    .headingg {
+        width: 70%;
+        font-size: 30px;
+        padding-top: 5px;
+        box-sizing: border-box;
+    }
+    .founderr {
+        height: 70px;
+        width: 15%;
+    }
+    .founderr img {
+        width: 100%;
+        height: 70px;
+    }
+    .marqueee {
+        font-size: 13px;
+        height: 50px;
+        font-weight: bold;
+    }
+    .flex-parent2 {
+        height: 20px;
+        margin-top: -15px;
+    }
+    .marqueee {
+        height: 20px;
+    }
+    .namee {
+        width: 18%;
+        font-size: 6px;
+    }
+    #social_media {
+        display: none;
+    }
+    .menu {
+        position: relative;
+        top: 50px;
+    }
+    .drop {
+        opacity: 0.8;
+        transition: 2s;
+        box-sizing: border-box;
+        margin-top: -18px;
+    }
+    .ad {
+        font-size: 15px;
+        color: white;
+        height: 25px;
+        font-weight: bold;
+        width: 100%;
+        animation-name: ad;
+        animation-duration: 5s;
+        animation-iteration-count: auto;
+        margin-bottom: 35px;
+        box-sizing: border-box;
+        padding-top: 5px;
+        margin-top: 25px;
+    }
+    .nav {
+        display: none;
+    }
+    #sub a {
+        width: 35%;
+        height: 20px;
+        font-size: 8px;
+        box-sizing: border-box;
+        padding: 3px 0px 0px 0px;
+        margin: 0;
+        text-align: none;
+        top: -21px;
+    }
+    #sub a {
+        padding: 0px;
+    }
+    .menu {
+        display: block;
+    }
+    #mar {
+        font-size: 12px;
+        height: 20px;
+        width: 100%;
+        font-weight: bold;
+        padding: 3px;
+        box-sizing: border-box;
+    }
+    .table {
+        width: 100%;
+        height: auto;
+    }
+    .diwali3 {
+        width: 350px;
+        height: 200px;
+        border-radius: 10px;
+    }
+    .diwali3 iframe {
+        width: 350px;
+        height: 220px;
+        border-radius: 10px;
+    }
+    .footer {
+        font-size: 9px;
+    }
+}
