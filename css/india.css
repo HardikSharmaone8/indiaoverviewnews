@@ -1,36 +1,36 @@
 @keyframes multi {
     0% {
-        background-image: url("img/int1.jpeg");
+        background-image: url("int1.jpeg");
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
     15% {
-        background-image: url("img/indiaover.jpg");
+        background-image: url("indiaover.jpg");
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
     30% {
-        background-image: url("img/int3.jpeg");
+        background-image: url("int3.jpeg");
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
     45% {
-        background-image: url("img/int4.jpeg");
+        background-image: url("int4.jpeg");
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
     60% {
-        background-image: url("img/int5.jpeg");
+        background-image: url("int5.jpeg");
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
     75% {
-        background-image: url("img/int6.jpeg");
+        background-image: url("int6.jpeg");
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
     100% {
-        background-image: url("img/int7.jpeg");
+        background-image: url("int7.jpeg");
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
@@ -190,7 +190,6 @@ body {
     width: 150px;
     border-radius: 1000px;
     height: 120px;
-    background: url(image/indiaover.jpg);
     border-radius: 50px 0px 50px 0px;
     overflow: hidden;
     box-shadow: 10px 5px 15px black, -10px -0px 15px black;
