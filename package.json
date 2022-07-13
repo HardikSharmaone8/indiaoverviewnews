@@ -1,27 +1,28 @@
 {
-  "name": "india_overview_news",
-  "version": "1.0.0",
-  "description": "to build a website",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HardikSharmaone8/indiaoverviewnews.git"
-  },
-  "author": "hardik Sharma",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/HardikSharmaone8/indiaoverviewnews/issues"
-  },
-  "homepage": "https://github.com/HardikSharmaone8/indiaoverviewnews#readme",
-  "dependencies": {
-    "express": "^4.18.1",
-    "fs": "^0.0.1-security",
-    "hbs": "^4.2.0",
-    "nodemon": "^2.0.19",
-    "path": "^0.12.7",
-    "views": "^1.0.2"
-  }
+    "name": "india_overview_news",
+    "version": "1.0.0",
+    "description": "to build a website",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node src/app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/HardikSharmaone8/indiaoverviewnews.git"
+    },
+    "author": "hardik Sharma",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/HardikSharmaone8/indiaoverviewnews/issues"
+    },
+    "homepage": "https://github.com/HardikSharmaone8/indiaoverviewnews#readme",
+    "dependencies": {
+        "express": "^4.18.1",
+        "fs": "^0.0.1-security",
+        "hbs": "^4.2.0",
+        "nodemon": "^2.0.19",
+        "path": "^0.12.7",
+        "views": "^1.0.2"
+    }
 }
